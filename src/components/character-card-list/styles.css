@@ -1,0 +1,11 @@
+.character-card-list {
+  flex: 0 1 auto;
+  align-self: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-content: flex-start;
+}

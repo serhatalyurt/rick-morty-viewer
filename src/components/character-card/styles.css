@@ -1,0 +1,50 @@
+.character-card {
+  border: 1px solid #ccc;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.character-card-header {
+  display: flex;
+  flex-direction: row;
+  max-height: 100px;
+  padding: 5px;
+}
+
+.character-card-header > div {
+  padding-left: 10px;
+}
+
+.character-card-header > img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.character-card-details {
+  display: block;
+}
+
+.character-card-details > div {
+  display: flex;
+}
+
+.character-card-details > div > strong {
+  min-width: 75px;
+}
+
+.character-card-episode-list > div {
+  padding: 1px 2px 1px 1px;
+}
+
+.character-card-episode-list > div:hover {
+  background-color: sandybrown;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}

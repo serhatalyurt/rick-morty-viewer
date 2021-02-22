@@ -1,0 +1,38 @@
+.tab-title {
+  background-color: rgb(230, 230, 240);
+  margin: 2px 0px 2px 4px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0px 5px 0 5px;
+  color: cadetblue;
+}
+
+.tab-title:hover {
+  background-color: sandybrown;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.tab-title.active {
+  background-color: darkkhaki;
+  color: white;
+}
+
+.tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  min-height: 0;
+}
+
+.tab-header {
+  border-bottom: 1px solid rgb(230, 230, 240);
+}
+
+.tab-content {
+  overflow-y: auto;
+  flex: 1;
+  padding: 3px 5px 3px 5px;
+}

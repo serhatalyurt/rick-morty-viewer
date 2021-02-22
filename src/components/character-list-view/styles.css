@@ -1,0 +1,51 @@
+.character-list {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.character-list > .character-list-item:nth-child(2n + 1) {
+  background-color: #fcfcfc;
+}
+
+.character-list-item {
+  display: flex;
+  margin: 0 5px 5px 0;
+  justify-items: center;
+  min-height: 25px;
+}
+
+.character-list-item > input {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.character-list-item > img {
+  border-radius: 25px;
+  max-width: 25px;
+  max-height: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.character-list-item > span {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.character-list-header {
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.fetching-bottom-info {
+  background-color: #ccc;
+  color: #2244dd;
+  text-align: right;
+  font-size: 14px;
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+}
